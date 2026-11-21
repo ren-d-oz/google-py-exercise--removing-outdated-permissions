@@ -13,4 +13,4 @@ More specifically, removing IP addresses that no longer should access these conf
 
 Said file's contents were based on who's working with personal patient records. There is meant to be an allowed list for IP addresses that is permitted to sign into the restricted subnetwork, so even allowed employees would also have to fit the IP address requirement or else they'd be restricted; there is also a “remove” list that identifies which employees should have their permission removed.
 
-In short, it's a piece of Python code for reading a .txt file and removing outdated IP permissions.
+In short, this is a piece of Python code for reading a .txt file and removing outdated IP permissions.
