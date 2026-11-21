@@ -22,7 +22,7 @@ implist = "allow_list.txt"
 remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
 
 
-with open (implist, "r") as file:
+with open(implist, "r") as file:
 	ip_list = file.read()
 ip_list = ip_list.split()
 
@@ -51,5 +51,5 @@ while elem_counter < len(remove_list):
 
 ip_list = "\n".join(ip_list)
 
-with open (implist, "w") as file:
+with open(implist, "w") as file:
 	file.write(ip_list)
